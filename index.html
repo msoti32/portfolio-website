@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Ubuntu:300,400,700" rel="stylesheet">
@@ -25,38 +26,44 @@
   <title>marko sotirovic | UX / UI Designer | Chicago, IL</title>
 </head>
 <body>
+
+  <div class="wrapper">
+<img src="img/markosotirovicLogo.svg" alt="marko sotirovic logo" style="width:300px; height:100px;">
   <header>
-    <img src="img/markosotirovicLogo.svg" alt="marko sotirovic logo" style="width:300px;height:150px;">
+
+
     <nav>
-      <ul>
+      <ul class="navigation">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
+
     <h1>Hi, my name is Marko Sotirovic, a UX / UI Designer out of Chicago, IL. <span>Welcome to my portfolio site!</span></h1>
-  <div><!--this will be the container that “contains” the 4 columns-->
-    <div><!-- this will be the first column-->
+  <div class="columns-container"><!--this will be the container that “contains” the 4 columns-->
+    <div class="column-4"><!-- this will be the first column-->
       <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="Work Sample 1" >
       <h2>Work Sample 1</h2>
     </div><!-- this will end the first column-->
 
-    <div><!-- this will be the second column-->
+    <div class="column-4"><!-- this will be the second column-->
       <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="Work Sample 2" >
       <h2>Work Sample 2</h2>
     </div><!-- this will end the second column-->
 
-    <div><!-- this will be the third column-->
+    <div class="column-4"><!-- this will be the third column-->
       <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="Work Sample 3" >
       <h2>Work Sample 3</h2>
     </div><!-- this will end the third column-->
 
-    <div><!-- this will be the fourth column-->
+    <div class="column-4"><!-- this will be the fourth column-->
       <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="Work Sample 4" >
       <h2>Work Sample 4</h2>
     </div><!-- this will end the fourth column-->
   </div><!-- this will close the container-->
 
+</div><!-- this will close the wrapper-->
 </body>
 </html>
