@@ -88,6 +88,8 @@ button:focus {
   text-align: center; /* Centers text */
 }
 
+.portfolio-thumbnail { width: 100%; }
+
 .columns-container {
   font-size: 0;
 }
