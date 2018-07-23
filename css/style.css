@@ -33,6 +33,7 @@ h3 {
 
 a {
   color: #a3a27e;
+  text-decoration: none;
 }
 
 a:hover,
@@ -50,7 +51,8 @@ a:active {
   color: #a3a27e;
 }
 
-button {
+button,
+.button {
   /* overwrite browser defaults */
   border: none; /* reset the border */
   font-family: inherit; /* takes the font from the outer container */
@@ -61,11 +63,12 @@ button {
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  transition: 0.2s opacity;
+  transition: 0.3s opacity;
 }
 
 button:hover,
-button:focus {
+button:focus,
+.button:hover {
   cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
   opacity: 0.8; /* Reduces the opactiy of the button to 80% */
 }
@@ -108,6 +111,28 @@ margin-right: 0;
   display: inline-block;
   margin-left: 10px;
 }
+
+.Clock {
+  animation-duration: 2s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes color-change {
+    from {fill: #e2e1cf;}
+    to {fill: ##a3a27e;}
+}
+
+
+
+
+
+
+
+
+
 
 
 
