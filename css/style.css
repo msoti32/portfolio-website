@@ -89,6 +89,7 @@ button:focus,
   display: inline-block;
   margin-right: 1%;
   text-align: center; /* Centers text */
+  vertical-align:top;
 }
 
 .portfolio-thumbnail { width: 100%; }
@@ -124,6 +125,30 @@ margin-right: 0;
     from {fill: #e2e1cf;}
     to {fill: ##a3a27e;}
 }
+
+
+.project-details {
+  display: none;
+}
+
+.project {
+  position: relative;
+}
+
+.project-details {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
